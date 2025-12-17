@@ -385,6 +385,7 @@ for text in test_lines:
             char_idx += 1
         else:
             diacritized_text += ch
+    diacritized_text += '\n'
 
 # Save diacritized text
 with open('predictions_diacritized.txt', 'w', encoding='utf-8') as f:
